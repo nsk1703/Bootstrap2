@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <!-- Inserer une image au title -->
+        <link rel="icon" href="images/title-img.png">
+
+            <!--Custom CSS  -->
+        <link rel="stylesheet" href="style.css">
+
+            <!-- bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+            <!-- fontawesome CSS -->
+        <link rel="stylesheet" href="css/fontawesome/all.css">
+        <link rel="stylesheet" href="css/fontawesome/fontawesome.css">
+        <link rel="stylesheet" href="css/fontawesome/fontawesome.min.css">
+
+        <title>PhotoX</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md fixed-top pt-3 pb-5 nav-menu">
+                <a class="navbar-brand  pl-3 text-info" href="#" style="font-size: 30px" > <span class="font-weight-bold" style="font-size:34px">PHOTO</span><span style="font-size: 43px">X</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <div class="bg-light line1"></div>
+                    <div class="bg-light line2"></div>
+                    <div class="bg-light line3"></div>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="navbarCollapse">
+                    <ul class="navbar-nav mr-5">
+                        <li class="nav-item active">
+                            <a class="nav-link px-3 menu-item" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 menu-item" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+             <!-- banner -->
+             <!--1: couleur en noir, 2:cree un border net a droite a la fin des phrases selon le type d'affichage 3: centre le texte, 4: fais apparaitre le texte-->
+            <div class=" text-dark text-md-right text-center banner" style="font-size: 100px">
+                <h1 class="display-4 banner-heading">Welcome to <span class="text-uppercase">photo</span><span class="display-3">X</span></h1>
+                <!-- "lead" stabilise la police d'un paragraphe-->
+                <p class="lead banner-par">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+            <!-- end of banner -->
+        </header>     
+    
+        <!-- begin Mission Section -->
+        <section class="mission py-3">
+            <div class="container-fluid ">
+                <!-- title -->
+                <div class="row py-4 text-center text-white ">
+                    <div class="col-md-12 col-sm-6 my-3">
+                        <h1 class=" display-3 text-capitalize">our mission</h1>
+                        <div class="underline my-4"></div>
+                        <p style="font-size: 20px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet <br>omnis quia tempora.</p>
+                    </div>
+                </div>
+                <!-- End title -->
+                <div class="row my-5 mx-3">
+                    <div class="col-md-4 text-center ">
+                        <i class="fas fa-cogs fa-5x mb-2" style="color: #ff4444"></i>
+                        <h1 class="text-white">Creativity</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto illum!</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="far fa-thumbs-up fa-5x text-danger mb-2"></i>
+                        <h1 class="text-white">Quality</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto illum!</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="far fa-handshake fa-5x text-danger mb-2"></i>
+                        <h1 class="text-white">Experience</h1>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto illum!</p>
+                    </div>
+                </div>
+                <!-- On cree un container simple car l'on veut laisse des margin-auto -->
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 text-center">
+                            <img src="images\camera.png" width="350">
+                        </div>
+                        <!-- puisse que l'image est sombre et cache sous le background du grand container, 
+                            on le mets en 'white' pour qu'il soit lisible -->
+                        <div class="col-lg-7 text-white text-lg-right">
+                            <h1>We know what we do</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora itaque obcaecati voluptas? Perferendis voluptate accusantium eum sit deleniti harum, assumenda vitae! Cupiditate eos iusto ab rerum, voluptatum minima sed?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Mission -->
+        
+        <!-- Begin Section Collection -->
+        <section class="py-4"> 
+            <div class="container-fluid">
+                <div class="row my-5">
+                    <div class="col-md-12 text-center">
+                        <h1 class=" display-3 text-capitalize collection">Collection</h1>
+                        <div class="underlinecollection my-4"></div>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet <br>omnis quia tempora.</p>
+                    </div>
+                </div>
+                <!-- Ici nous allons gerer l'affichage des photos par la commande "card", ce qui les mets sous forme de cartes photos
+                2:Nous enlevons les bordures blancs sur les images avec "border-0", et nous mettons lesombres derriere 
+                les images grace a "card-shadow", qui est parametre dans le css-->
+                <!--Inserer du texte sur l'image avec "card-img-overlay"-->
+                <div class="row py-3 px-3">
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\nature.jpeg" alt="one" class="img-responsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">nature photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\wedding.jpeg" alt="second" class="img-reponsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">wedding photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\party.jpeg" alt="thirth" class=" img-responsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">party photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\business.jpeg" alt="quarth" class="img-responsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">business photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\fashion.jpeg" alt="fifth" class="img-responsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">fashion photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 my-3">
+                        <div class="card border-0 card-shadow">
+                            <img src="images\family.jpeg" alt="sixth" class="img-responsive card-img">
+                            <div class="card-img-overlay">
+                                <h5 class="text-white text-uppercase font-weight-bold heading p-2">nature photography</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Collection -->
+
+        <!-- Begin Section Gallery -->
+        <section class="py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class=" display-3 text-capitalize Gallery">Gallery</h1>
+                        <div class="underlinegallery my-4"></div>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet <br>omnis quia tempora.</p>
+                    </div>
+                </div>
+
+                <!-- Creation d'une liste 
+                    "list-inline" enleve les puces devant les elements de la liste et enleve le maring par defaut
+                    "list-inline-item" permet de mettre en ligne chaque element de la liste
+                    "data-filter" permet de filtrer des elements dans une liste en les y collectionnant-->
+                <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+                    <li class="list-inline-item gallery-list-item active-item" data-filter="all">all<span class=" mx-md-5 mx-3">/</span></li>
+                    <li class="list-inline-item gallery-list-item" data-filter="new">new<span class="mx-md-5 mx-3">/</span></li>
+                    <li class="list-inline-item gallery-list-item" data-filter="free">free<span class="mx-md-5 mx-3">/</span></li>
+                    <li class="list-inline-item gallery-list-item" data-filter="pro">pro</li>
+                </ul>
+                <div class="container-fluid">
+                    <!-- "d-flex" aligne toutes les images horizontalement
+                         "flex-wrap" classe les images en 4 rangees
+                         "filter" selectionne des images pour les classer dans des items ci-dessous-->
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="filter new"><img src="images\img1.jpeg" width="300"></div>
+                        <div class="filter free"><img src="images\img2.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img3.jpeg" width="300"></div>
+                        <div class="filter new"><img src="images\img4.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img5.jpeg" width="300"></div>
+                        <div class="filter free"><img src="images\img6.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img7.jpeg" width="300"></div>
+                        <div class="filter free"><img src="images\img8.jpeg" width="300"></div>
+                        <div class="filter new"><img src="images\img9.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img10.jpeg" width="300"></div>
+                        <div class="filter new"><img src="images\img11.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img12.jpeg" width="300"></div>
+                        <div class="filter new"><img src="images\img13.jpeg" width="300"></div>
+                        <div class="filter free"><img src="images\img14.jpeg" width="300"></div>
+                        <div class="filter new"><img src="images\img15.jpeg" width="300"></div>
+                        <div class="filter pro"><img src="images\img16.jpeg" width="300"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Gallery -->
+
+        <!-- Begin Section Customers -->
+        <section class="customers py-5">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row text-white text-center">
+                    <div class="col">
+                        <h1 class=" display-3 text-capitalize">happy customers</h1>
+                        <div class="underlinecustomers my-4"></div>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet <br>omnis quia tempora.</p>
+                    </div>
+                </div>
+                <!-- End title -->
+                
+                <div class="row justify-content-center ">
+                    <div class="col-md-6">
+                        <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#customer-carousel" data-slide-to="1"></li>
+                                <li data-target="#customer-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center">
+                                    <img src="images\customer1.jpeg" class="img-fluid rounded-circle m-4" width="200">
+                                    <h5 class="text-light text-uppercase font-weight-bold">Monica</h5>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                    </ul>
+                                    <blockquote class="blockquote text-light">
+                                        <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                                    </blockquote>
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <img src="images\customer2.jpeg" class="img-fluid rounded-circle m-4" width="200">
+                                    <h5 class="text-light text-uppercase font-weight-bold">Johnathan</h5>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                    </ul>
+                                    <blockquote class="blockquote text-light">
+                                        <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                                    </blockquote>
+                                </div>
+                                <div class="carousel-item text-center">
+                                    <img src="images\customer3.jpeg" class="img-fluid rounded-circle m-4" width="200">
+                                    <h5 class="text-light text-uppercase font-weight-bold">Helen</h5>
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                        <li class="list-inline-item ">
+                                            <i class="fas fa-star text-warning"></i>
+                                        </li>
+                                    </ul>
+                                    <blockquote class="blockquote text-light">
+                                        <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Customers -->
+
+        <!-- Begin Section Pricing -->
+        <section class="py-5">
+            <div class="container-fluid">
+                <!-- title -->
+                <div class="row text-center">
+                    <div class="col">
+                        <h1 class=" display-3 text-capitalize joinus">join us</h1>
+                        <div class="underlinejoin my-4"></div>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore, sint quisquam fugiat pariatur culpa officia. Eveniet <br>omnis quia tempora.</p>
+                    </div>
+                </div>
+                <!-- End title -->
+
+                <div class="row align-items-center">
+                    <div class="col-lg-4 " >
+                        <div class="card card-1 text-dark align-items-center py-4 my-4 mx-auto">
+                            <div class="card-body">
+                                <h5 class="text-uppercase font-weight-bold">monthly membership</h5>
+                                <h1 class="display-4 text-center mt-5 font-weight-bold"><i class="fas fa-dollar-sign"></i>  19</h1>
+                                <ul class="list-unstyled text-center">
+                                    <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
+                                    <li class="font-weight-bold py-3 card-list-item">After effects</li>
+                                    <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
+                                    <li class="font-weight-bold py-3 card-list-item border-0">Video Montage</li>
+                                </ul>
+                                <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-info" style="background: #f5593d" style=" border-radius: 160px">sign-up!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 " >
+                        <div class="card card-2 text-dark align-items-center py-4 my-4 mx-auto">
+                            <div class="card-body">
+                                <h5 class="text-uppercase font-weight-bold">unlimited access</h5>
+                                <h1 class="display-4 text-center mt-5 font-weight-bold"><i class="fas fa-dollar-sign"></i>  499</h1>
+                                <ul class="list-unstyled text-center">
+                                    <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
+                                    <li class="font-weight-bold py-3 card-list-item">After effects</li>
+                                    <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
+                                    <li class="font-weight-bold py-3 card-list-item">Video Montage</li>
+                                    <li class="font-weight-bold py-3 card-list-item border-0">Clip making</li>
+                                </ul>
+                                <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-info" style="background: #f5593d">sign-up!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 " >
+                        <div class="card card-3 text-dark align-items-center py-4 my-4 mx-auto">
+                            <div class="card-body">
+                                <h5 class="text-uppercase font-weight-bold">annual membership</h5>
+                                <h1 class="display-4 text-center mt-5 font-weight-bold"><i class="fas fa-dollar-sign"></i>  199</h1>
+                                <ul class="list-unstyled text-center">
+                                    <li class="font-weight-bold py-3 card-list-item">Photoshop</li>
+                                    <li class="font-weight-bold py-3 card-list-item">After effects</li>
+                                    <li class="font-weight-bold py-3 card-list-item">Graphic Design</li>
+                                    <li class="font-weight-bold py-3 card-list-item border-0">Video Montage</li>
+                                </ul>
+                                <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-info" style="background: #f5593d">sign-up!</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </section>
+        <!-- End Section Pricing -->
+            <!-- custom JS -->
+        <script src="js/jquery/jquery.js"></script>
+
+            <!-- bootstrap JS -->
+        <script src="js/bootstrap/bootstrap.js"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+
+            <!-- fontawesome JS -->
+        <script src="js/fontawesome/all.js"></script>
+        <script src="js/fontawesome/fontawesome.js"></script>
+        <script src="js/fontawesome/fontawesome.min.js"></script>
+    </body>
+</html>
